@@ -1,8 +1,8 @@
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 
-// Serve Coming Soon page
+// Serve Coming Soon page at root
 app.get('/', (req, res) => {
     res.send(`
         <!DOCTYPE html>
@@ -67,6 +67,12 @@ app.get('/', (req, res) => {
     `);
 });
 
+// Example API route
+app.get('/api/status', (req, res) => {
+  res.json({ status: 'OK', timestamp: new Date() });
+});
+
+// Start server
 app.listen(port, () => {
-    console.log(`Server running on port ${port}`);
+  console.log(`Server running on port ${port}`);
 });
