@@ -65,7 +65,7 @@ Here are the screenshots for clarity:
 <img src="screenshots/vscode.jpg" alt="Conflict Resolution" width="700">
 
 ### 4. Running App (UI)
-<img src="screenshots/comming-soon.jpg" alt="Running App" width="700">
+<img src="screenshots/coming-soon.jpg" alt="Running App" width="700">
 
 ---
 
@@ -109,4 +109,5 @@ Now open **http://localhost:3000** in your browser 🎉
 **Sriram Varma Bhupathiraju**  
 🔗 [GitHub](https://github.com/sriramvarma0)  
 🔗 [LinkedIn](https://www.linkedin.com/in/sriram-varma)
+
 
